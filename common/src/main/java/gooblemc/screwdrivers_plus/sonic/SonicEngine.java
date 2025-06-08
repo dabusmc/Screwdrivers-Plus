@@ -177,6 +177,10 @@ public class SonicEngine {
     // SPECIFIC ACTIONS (Entity)
 
     private static void handleEntityWithEquipment(LivingEntity entity, boolean wearingArmor, boolean holdingItems) {
+        if(entity instanceof Player) {
+            return;
+        }
+
         if(wearingArmor) {
             EntityUtils.dropHeldItem(entity, EquipmentSlot.HEAD);
             EntityUtils.dropHeldItem(entity, EquipmentSlot.CHEST);

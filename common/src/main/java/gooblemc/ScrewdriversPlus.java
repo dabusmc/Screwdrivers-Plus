@@ -1,7 +1,9 @@
 package gooblemc;
 
 import gooblemc.screwdrivers_plus.block.ModBlocks;
+import gooblemc.screwdrivers_plus.commands.ModCommands;
 import gooblemc.screwdrivers_plus.item.ModItems;
+import dev.architectury.event.events.common.CommandRegistrationEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,6 +16,10 @@ public final class ScrewdriversPlus {
         ModItems.TABS.registerToModBus();
         ModBlocks.BLOCKS.registerToModBus();
         ModItems.ITEMS.registerToModBus();
+
+        CommandRegistrationEvent.EVENT.register((dispatcher, registryAccess, environment) -> {
+            ModCommands.register(dispatcher);
+        });
     }
 
 }
