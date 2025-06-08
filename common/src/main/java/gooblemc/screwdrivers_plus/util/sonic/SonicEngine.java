@@ -1,19 +1,28 @@
 package gooblemc.screwdrivers_plus.util.sonic;
 
 import gooblemc.screwdrivers_plus.item.custom.SonicItem;
+import gooblemc.screwdrivers_plus.util.block.BeehiveUtils;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.animal.Sheep;
+import net.minecraft.world.entity.monster.Creeper;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.entity.BeehiveBlockEntity;
+import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.DoubleBlockHalf;
 import net.minecraft.world.level.block.state.properties.Property;
+import net.minecraft.world.level.gameevent.GameEvent;
 import whocraft.tardis_refined.common.items.ScrewdriverMode;
 import whocraft.tardis_refined.registry.TRSoundRegistry;
 
@@ -29,11 +38,11 @@ public class SonicEngine {
         Player player = context.getPlayer();
 
         if(item.isScrewdriverMode(context.getItemInHand(), ScrewdriverMode.ENABLED) && !player.isCrouching()) {
-            modifyBlockState(context, player);
+            handleBlockInteractions(context, player);
         }
     }
 
-    private static void modifyBlockState(UseOnContext context, Player player) {
+    private static void handleBlockInteractions(UseOnContext context, Player player) {
         Level level = context.getLevel();
         BlockState state = level.getBlockState(context.getClickedPos());
         ItemStack stack = context.getItemInHand();
@@ -45,6 +54,10 @@ public class SonicEngine {
                 destroyBlock(serverLevel, context, player, stack);
             } else if (state.getBlock() instanceof DoorBlock) {
                 handleDoor(serverLevel, state, context, player, stack);
+            } else if (state.getBlock() instanceof TrapDoorBlock) {
+                cycleBlockState(serverLevel, state, context, player, stack, BlockStateProperties.OPEN);
+            } else if(state.getBlock() instanceof BeehiveBlock) {
+                handleBeehive(serverLevel, state, context, player, stack);
             } else if (state.hasProperty(BlockStateProperties.POWERED)) {
                 cycleBlockState(serverLevel, state, context, player, stack, BlockStateProperties.POWERED);
             } else if (state.hasProperty(BlockStateProperties.LIT)) {
@@ -53,6 +66,32 @@ public class SonicEngine {
                 cycleBlockState(serverLevel, state, context, player, stack, BlockStateProperties.OPEN);
             }
         }
+    }
+
+    // ENTITIES
+
+    public static void useOnEntity(ItemStack stack, Player player, LivingEntity entity) {
+        SonicItem item = (SonicItem) stack.getItem();
+
+        if(player.level() instanceof ServerLevel serverLevel && item.isScrewdriverMode(stack, ScrewdriverMode.ENABLED)) {
+            handleEntityInteractions(serverLevel, player, entity, item);
+        }
+    }
+
+    private static void handleEntityInteractions(ServerLevel level, Player player, LivingEntity entity, SonicItem item) {
+        if(!player.isCrouching()) {
+            if (entity instanceof Creeper creeper) {
+                creeper.setSwellDir(0);
+                creeper.ignite();
+            } else if (entity instanceof Sheep sheep) {
+                if(sheep.readyForShearing()) {
+                    sheep.shear(SoundSource.PLAYERS);
+                    sheep.gameEvent(GameEvent.SHEAR, player);
+                }
+            }
+        }
+
+        item.playScrewdriverSound(level, player.blockPosition(), TRSoundRegistry.SCREWDRIVER_SHORT.get());
     }
 
     // SPECIFIC ACTIONS
@@ -108,6 +147,26 @@ public class SonicEngine {
         level.sendBlockUpdated(otherPos, otherState, level.getBlockState(otherPos), Block.UPDATE_ALL);
 
         playSoundAndCooldown(level, player, stack, context.getClickedPos());
+    }
+
+    private static void handleBeehive(ServerLevel level, BlockState state, UseOnContext context, Player player, ItemStack stack) {
+        if(!(state.getBlock() instanceof BeehiveBlock beehive)) {
+            return;
+        }
+
+        if(state.getValue(BeehiveBlock.HONEY_LEVEL) >= BeehiveBlock.MAX_HONEY_LEVELS) {
+            level.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.BEEHIVE_SHEAR, SoundSource.BLOCKS, 1.0F, 1.0F);
+            BeehiveBlock.dropHoneycomb(level, context.getClickedPos());
+            if(!CampfireBlock.isSmokeyPos(level, context.getClickedPos())) {
+                if(!BeehiveUtils.beehiveIsEmpty(level, context.getClickedPos())) {
+                    BeehiveUtils.angerBeesAroundHive(level, context.getClickedPos());
+                }
+
+                beehive.releaseBeesAndResetHoneyLevel(level, state, context.getClickedPos(), player, BeehiveBlockEntity.BeeReleaseStatus.EMERGENCY);
+            } else {
+                beehive.resetHoneyLevel(level, state, context.getClickedPos());
+            }
+        }
     }
 
     // UTILITY
