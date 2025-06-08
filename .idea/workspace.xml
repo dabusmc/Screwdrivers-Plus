@@ -5,76 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef53f94e-f030-4b6e-bb72-631b3944c46c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/util/sonic/SonicEngine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client___fabric__fabric.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client___fabric__fabric.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client___forge__forge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client___forge__forge.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___forge__forge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___forge__forge.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/gooblemc/ScrewdriversPlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/gooblemc/ScrewdriversPlus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/gooblemc/item/ModItems.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/gooblemc/item/custom/SonicItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/screwdrivers_plus/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/screwdrivers_plus/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/screwdrivers_plus/models/item/sonic_screwdriver.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/screwdrivers_plus/models/item/sonic_screwdriver.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/screwdrivers_plus.mixins.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/gooblemc/fabric/FabricScrewdriversPlus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/gooblemc/fabric/client/FabricScrewdriversPlusClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/item/custom/SonicItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/item/custom/SonicItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/2025-06-05-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/2025-06-06-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/latest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/DIM-1/data/capabilities.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/DIM-1/data/raids.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/DIM1/data/capabilities.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/DIM1/data/raids_end.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/data/capabilities.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/data/raids.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/data/random_sequences.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/entities/r.-1.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/entities/r.-1.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/entities/r.0.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/entities/r.0.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/level.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/level.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/poi/r.-1.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/poi/r.-1.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/poi/r.-2.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/poi/r.-2.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/poi/r.0.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/poi/r.0.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/region/r.-1.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/region/r.-1.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/region/r.-2.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/region/r.-2.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/region/r.0.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/region/r.0.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/serverconfig/forge-server.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/session.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/Test1/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/usernamecache.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/usernamecache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/java/gooblemc/forge/ForgeScrewdriversPlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/gooblemc/forge/ForgeScrewdriversPlus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/resources/META-INF/mods.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/resources/pack.mcmeta" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/resources/pack.mcmeta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,12 +71,20 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2yECprxe8hDf3Oy8SrUeC65Jx68" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -144,6 +93,7 @@
   "keyToString": {
     "Gradle.BlackArchive:fabric [runClient].executor": "Run",
     "Gradle.BlackArchive:forge [runClient].executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -195,15 +145,6 @@
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
       <method v="2" />
     </configuration>
     <recent_temporary>
