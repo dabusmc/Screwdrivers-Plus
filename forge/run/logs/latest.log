@@ -1,357 +1,331 @@
-[16:51:47] [main/INFO] (Launcher) ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.20.1-5, --assetsDir, C:\Users\shaki\.gradle\caches\fabric-loom\assets, --gameDir, ., --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, -mixin.config, screwdrivers_plus_common.mixin.json, -mixin.config, screwdrivers_plus_forge.mixin.json, --mixin.config, screwdrivers_plus_common.mixin.json]
-[16:51:47] [main/INFO] (Launcher) ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.7 by JetBrains s.r.o.; OS Windows 10 arch amd64 version 10.0
-[16:51:47] [main/INFO] (ImmediateWindowHandler) Loading ImmediateWindowProvider fmlearlywindow
-[16:51:47] [main/INFO] (EARLYDISPLAY) Trying GL version 4.6
-[16:51:48] [main/INFO] (EARLYDISPLAY) Requested GL version 4.6 got version 4.6
-[16:51:48] [main/INFO] (mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/shaki/.gradle/caches/modules-2/files-2.1/dev.architectury/mixin-patched/0.8.5.12/cf1f787f58d3b08b0cb53ecbba7928c09a1893c8/mixin-patched-0.8.5.12.jar%23127!/ Service=ModLauncher Env=CLIENT
-[16:51:48] [pool-5-thread-1/INFO] (EARLYDISPLAY) GL info: NVIDIA GeForce GTX 960/PCIe/SSE2 GL version 4.6.0 NVIDIA 560.94, NVIDIA Corporation
-[16:51:48] [main/WARN] (ModFileParser) Mod file C:\Users\shaki\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.0\f0c0b352173d0a378cbdcec9cfc4ba65899a721\javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[16:51:48] [main/WARN] (ModFileParser) Mod file C:\Users\shaki\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.0\e862740d8c84d08dbfedea412bef88fe42e727c5\lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[16:51:48] [main/WARN] (ModFileParser) Mod file C:\Users\shaki\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.0\5719b3a297a33f877ed5dde4cb4bd75c859096af\mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[16:51:48] [main/WARN] (ModFileParser) Mod file C:\Users\shaki\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.0\235975dafa4309945b59c56b53f31dc5b65a6051\fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
-[16:51:48] [main/INFO] (ModDiscoverer) Found mod file javafmllanguage-1.20.1-47.4.0.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@38ed9fb2
-[16:51:48] [main/INFO] (ModDiscoverer) Found mod file lowcodelanguage-1.20.1-47.4.0.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@38ed9fb2
-[16:51:48] [main/INFO] (ModDiscoverer) Found mod file mclanguage-1.20.1-47.4.0.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@38ed9fb2
-[16:51:48] [main/INFO] (ModDiscoverer) Found mod file fmlcore-1.20.1-47.4.0.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@38ed9fb2
-[16:51:48] [main/INFO] (ModDiscoverer) Found mod file forge-1.20.1-47.4.0-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2-forge-1.20.1-47.4.0.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@38ed9fb2
-[16:51:48] [main/INFO] (ModDiscoverer) Found mod file main of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@38ed9fb2
-[16:51:48] [main/INFO] (ModDiscoverer) Found mod file  of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@38ed9fb2
-[16:51:48] [main/INFO] (ModDiscoverer) Found mod file screwdrivers_plus-common-1.5.3-dev.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@27ccf818
-[16:51:48] [main/INFO] (ModDiscoverer) Found mod file architectury-forge-9.2.14.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@27ccf818
-[16:51:48] [main/INFO] (ModDiscoverer) Found mod file tardis-refined-neoforge-mc1.20.1-v2.1.5.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@27ccf818
-[16:51:48] [main/INFO] (ModDiscoverer) Found mod file 13898856178675506941.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@27ccf818
-[16:51:48] [main/INFO] (ModDiscoverer) Found mod file screwdrivers_plus-common-1.5.3-dev.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@27ccf818
-[16:51:48] [main/INFO] (ModDiscoverer) Found mod file architectury-forge-9.2.14.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@27ccf818
-[16:51:48] [main/INFO] (ModDiscoverer) Found mod file tardis-refined-neoforge-mc1.20.1-v2.1.5.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@27ccf818
-[16:51:48] [main/INFO] (ModDiscoverer) Found mod file 13898856178675506941.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@27ccf818
-[16:51:48] [main/INFO] (JarInJarDependencyLocator) No dependencies to load found. Skipping!
-[16:51:50] [main/INFO] (mixin) Compatibility level set to JAVA_17
-[16:51:50] [main/INFO] (LaunchServiceHandler) Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\shaki\.gradle\caches\fabric-loom\assets, --assetIndex, 1.20.1-5]
-[16:51:50] [main/INFO] (mixin) Remapping refMap common-tardis_refined-common-refmap.json using RemapperChain (Architectury Patched)
-[16:51:50] [main/INFO] (mixin) Remapping refMap forge-tardis_refined-forge-refmap.json using RemapperChain (Architectury Patched)
-[16:51:50] [main/INFO] (unprotect) Found 7423 Minecraft classes
-[16:51:50] [main/INFO] (mixin) Remapping refMap architectury-forge-refmap.json using RemapperChain (Architectury Patched)
-[16:51:50] [main/INFO] (mixin) Remapping refMap architectury-common-refmap.json using RemapperChain (Architectury Patched)
-[16:51:51] [main/WARN] (mixin) Error loading class: me/jellysquid/mods/sodium/client/render/immediate/model/EntityRenderer (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.render.immediate.model.EntityRenderer)
-[16:51:51] [main/WARN] (mixin) @Mixin target me.jellysquid.mods.sodium.client.render.immediate.model.EntityRenderer was not found tardis_refined-common.mixins.json:render.SodiumFixMixin
-[08Jun2025 16:51:55.670] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 156 milliseconds
-[08Jun2025 16:51:57.333] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/shaki/.gradle/caches/fabric-loom/minecraftMaven/net/minecraft/forge-1.20.1-47.4.0-minecraft-merged/1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2-forge-1.20.1-47.4.0/forge-1.20.1-47.4.0-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2-forge-1.20.1-47.4.0.jar%23199!/assets/.mcassetsroot' uses unexpected schema
-[08Jun2025 16:51:57.333] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/shaki/.gradle/caches/fabric-loom/minecraftMaven/net/minecraft/forge-1.20.1-47.4.0-minecraft-merged/1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2-forge-1.20.1-47.4.0/forge-1.20.1-47.4.0-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2-forge-1.20.1-47.4.0.jar%23199!/data/.mcassetsroot' uses unexpected schema
-[08Jun2025 16:51:57.348] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[08Jun2025 16:51:57.353] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[08Jun2025 16:51:57.447] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.2+13
-[08Jun2025 16:51:57.677] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
-[08Jun2025 16:51:57.678] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
-[08Jun2025 16:51:57.847] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id architectury:sync_ids
-[08Jun2025 16:51:57.848] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[08Jun2025 16:51:57.873] [modloading-worker-0/INFO] [Tardis Refined/]: ImmersivePortals was not detected.
-[08Jun2025 16:51:58.819] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
-[08Jun2025 16:51:58.825] [Render thread/INFO] [screwdrivers_plus/]: Registering mod models
-[08Jun2025 16:51:58.916] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[08Jun2025 16:51:59.002] [Worker-Main-5/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[08Jun2025 16:51:59.023] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[08Jun2025 16:51:59.525] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
-[08Jun2025 16:52:01.449] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[08Jun2025 16:52:01.449] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[08Jun2025 16:52:01.541] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
-[08Jun2025 16:52:01.541] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[08Jun2025 16:52:01.649] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[08Jun2025 16:52:01.659] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[08Jun2025 16:52:01.660] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[08Jun2025 16:52:01.661] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[08Jun2025 16:52:01.661] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[08Jun2025 16:52:01.665] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[08Jun2025 16:52:01.667] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[08Jun2025 16:52:01.667] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[08Jun2025 16:52:01.667] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[08Jun2025 16:52:01.697] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/shulker_door
-[08Jun2025 16:52:01.711] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/castle_door
-[08Jun2025 16:52:01.711] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/present_shell
-[08Jun2025 16:52:01.713] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/castle_shell
-[08Jun2025 16:52:01.721] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:console/initiative
-[08Jun2025 16:52:01.737] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:console/nuka
-[08Jun2025 16:52:01.744] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/present_door
-[08Jun2025 16:52:01.744] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/root_shell
-[08Jun2025 16:52:01.746] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:console/copper
-[08Jun2025 16:52:01.752] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/half_baked_door
-[08Jun2025 16:52:01.753] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/lift_shell
-[08Jun2025 16:52:01.755] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/groening_shell
-[08Jun2025 16:52:01.756] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:console/coral
-[08Jun2025 16:52:01.759] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/briefcase_shell
-[08Jun2025 16:52:01.760] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/half_baked_shell
-[08Jun2025 16:52:01.761] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/hieroglyph_shell
-[08Jun2025 16:52:01.764] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/vending_door
-[08Jun2025 16:52:01.764] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/phone_booth_shell
-[08Jun2025 16:52:01.765] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/pagoda_door
-[08Jun2025 16:52:01.765] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/root_shell_door
-[08Jun2025 16:52:01.765] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/drifter_shell
-[08Jun2025 16:52:01.767] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/phone_booth_door
-[08Jun2025 16:52:01.767] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/nuka_shell
-[08Jun2025 16:52:01.769] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/pagoda_shell
-[08Jun2025 16:52:01.770] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/pathfinder_shell
-[08Jun2025 16:52:01.771] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:growth/root_plant_three
-[08Jun2025 16:52:01.771] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:console/refurbished
-[08Jun2025 16:52:01.788] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/pathfinder_door
-[08Jun2025 16:52:01.788] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/mystic_shell
-[08Jun2025 16:52:01.791] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:technology/artron_pillar
-[08Jun2025 16:52:01.791] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/growth_shell
-[08Jun2025 16:52:01.793] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:growth/root_plant_four
-[08Jun2025 16:52:01.793] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/growth_door
-[08Jun2025 16:52:01.794] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/mystic_door
-[08Jun2025 16:52:01.794] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/police_box_shell
-[08Jun2025 16:52:01.796] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/big_ben_shell
-[08Jun2025 16:52:01.798] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:console/myst
-[08Jun2025 16:52:01.804] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/hieroglyph_door
-[08Jun2025 16:52:01.805] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/factory_shell
-[08Jun2025 16:52:01.805] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:growth/root_plant_five
-[08Jun2025 16:52:01.806] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/vending_shell
-[08Jun2025 16:52:01.806] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:console/factory
-[08Jun2025 16:52:01.808] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/police_box_door
-[08Jun2025 16:52:01.808] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/lift_door
-[08Jun2025 16:52:01.809] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:growth/root_plant_two
-[08Jun2025 16:52:01.809] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/portaloo_shell
-[08Jun2025 16:52:01.810] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/briefcase_door
-[08Jun2025 16:52:01.810] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:console/crystal
-[08Jun2025 16:52:01.819] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/drifter_door
-[08Jun2025 16:52:01.819] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:console/toyota
-[08Jun2025 16:52:01.821] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/shulker_shell
-[08Jun2025 16:52:01.821] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:growth/root_plant_one
-[08Jun2025 16:52:01.821] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:console/victorian
-[08Jun2025 16:52:01.832] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/groening_door
-[08Jun2025 16:52:01.832] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/portaloo_door
-[08Jun2025 16:52:01.832] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:living/ars_egg
-[08Jun2025 16:52:01.832] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/bulk_head_door
-[08Jun2025 16:52:01.832] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/big_ben_door
-[08Jun2025 16:52:01.833] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/nuka_door
-[08Jun2025 16:52:01.833] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/factory_door
-[08Jun2025 16:52:01.846] [Render thread/INFO] [TardisRefined/FrameByJeryn/]: Loading animation: tardis_refined:frame/living/ars_egg/crashing.json
-[08Jun2025 16:52:01.847] [Render thread/INFO] [TardisRefined/FrameByJeryn/]: Loading animation: tardis_refined:frame/living/ars_egg/swinging.json
-[08Jun2025 16:52:01.909] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[08Jun2025 16:52:01.965] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[08Jun2025 16:52:01.967] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[08Jun2025 16:52:01.968] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[08Jun2025 16:52:02.417] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
-[08Jun2025 16:52:11.929] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
-generated_c643d99 (version 1 -> MISSING)
+[17:56:40] [main/INFO] (Launcher) ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.20.1-5, --assetsDir, C:\Users\shaki\.gradle\caches\fabric-loom\assets, --gameDir, ., --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, -mixin.config, screwdrivers_plus_common.mixin.json, -mixin.config, screwdrivers_plus_forge.mixin.json, --mixin.config, screwdrivers_plus_common.mixin.json]
+[17:56:40] [main/INFO] (Launcher) ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.7 by JetBrains s.r.o.; OS Windows 10 arch amd64 version 10.0
+[17:56:40] [main/INFO] (ImmediateWindowHandler) Loading ImmediateWindowProvider fmlearlywindow
+[17:56:40] [main/INFO] (EARLYDISPLAY) Trying GL version 4.6
+[17:56:40] [main/INFO] (EARLYDISPLAY) Requested GL version 4.6 got version 4.6
+[17:56:40] [main/INFO] (mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/shaki/.gradle/caches/modules-2/files-2.1/dev.architectury/mixin-patched/0.8.5.12/cf1f787f58d3b08b0cb53ecbba7928c09a1893c8/mixin-patched-0.8.5.12.jar%23127!/ Service=ModLauncher Env=CLIENT
+[17:56:41] [pool-5-thread-1/INFO] (EARLYDISPLAY) GL info: NVIDIA GeForce GTX 960/PCIe/SSE2 GL version 4.6.0 NVIDIA 560.94, NVIDIA Corporation
+[17:56:41] [main/WARN] (ModFileParser) Mod file C:\Users\shaki\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.0\f0c0b352173d0a378cbdcec9cfc4ba65899a721\javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[17:56:41] [main/WARN] (ModFileParser) Mod file C:\Users\shaki\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.0\e862740d8c84d08dbfedea412bef88fe42e727c5\lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[17:56:41] [main/WARN] (ModFileParser) Mod file C:\Users\shaki\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.0\5719b3a297a33f877ed5dde4cb4bd75c859096af\mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[17:56:41] [main/WARN] (ModFileParser) Mod file C:\Users\shaki\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.0\235975dafa4309945b59c56b53f31dc5b65a6051\fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[17:56:41] [main/INFO] (ModDiscoverer) Found mod file javafmllanguage-1.20.1-47.4.0.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@38ed9fb2
+[17:56:41] [main/INFO] (ModDiscoverer) Found mod file lowcodelanguage-1.20.1-47.4.0.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@38ed9fb2
+[17:56:41] [main/INFO] (ModDiscoverer) Found mod file mclanguage-1.20.1-47.4.0.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@38ed9fb2
+[17:56:41] [main/INFO] (ModDiscoverer) Found mod file fmlcore-1.20.1-47.4.0.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@38ed9fb2
+[17:56:41] [main/INFO] (ModDiscoverer) Found mod file forge-1.20.1-47.4.0-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2-forge-1.20.1-47.4.0.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@38ed9fb2
+[17:56:41] [main/INFO] (ModDiscoverer) Found mod file main of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@38ed9fb2
+[17:56:41] [main/INFO] (ModDiscoverer) Found mod file  of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@38ed9fb2
+[17:56:41] [main/INFO] (ModDiscoverer) Found mod file screwdrivers_plus-common-1.5.3-dev.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@27ccf818
+[17:56:41] [main/INFO] (ModDiscoverer) Found mod file architectury-forge-9.2.14.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@27ccf818
+[17:56:41] [main/INFO] (ModDiscoverer) Found mod file tardis-refined-neoforge-mc1.20.1-v2.1.5.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@27ccf818
+[17:56:41] [main/INFO] (ModDiscoverer) Found mod file 2769579311931235022.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@27ccf818
+[17:56:41] [main/INFO] (ModDiscoverer) Found mod file screwdrivers_plus-common-1.5.3-dev.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@27ccf818
+[17:56:41] [main/INFO] (ModDiscoverer) Found mod file architectury-forge-9.2.14.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@27ccf818
+[17:56:41] [main/INFO] (ModDiscoverer) Found mod file tardis-refined-neoforge-mc1.20.1-v2.1.5.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@27ccf818
+[17:56:41] [main/INFO] (ModDiscoverer) Found mod file 2769579311931235022.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@27ccf818
+[17:56:41] [main/INFO] (JarInJarDependencyLocator) No dependencies to load found. Skipping!
+[17:56:42] [main/INFO] (mixin) Compatibility level set to JAVA_17
+[17:56:42] [main/INFO] (LaunchServiceHandler) Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\shaki\.gradle\caches\fabric-loom\assets, --assetIndex, 1.20.1-5]
+[17:56:42] [main/INFO] (mixin) Remapping refMap common-tardis_refined-common-refmap.json using RemapperChain (Architectury Patched)
+[17:56:42] [main/INFO] (mixin) Remapping refMap forge-tardis_refined-forge-refmap.json using RemapperChain (Architectury Patched)
+[17:56:42] [main/INFO] (unprotect) Found 7423 Minecraft classes
+[17:56:42] [main/INFO] (mixin) Remapping refMap architectury-forge-refmap.json using RemapperChain (Architectury Patched)
+[17:56:42] [main/INFO] (mixin) Remapping refMap architectury-common-refmap.json using RemapperChain (Architectury Patched)
+[17:56:43] [main/WARN] (mixin) Error loading class: me/jellysquid/mods/sodium/client/render/immediate/model/EntityRenderer (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.render.immediate.model.EntityRenderer)
+[17:56:43] [main/WARN] (mixin) @Mixin target me.jellysquid.mods.sodium.client.render.immediate.model.EntityRenderer was not found tardis_refined-common.mixins.json:render.SodiumFixMixin
+[08Jun2025 17:56:47.930] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 171 milliseconds
+[08Jun2025 17:56:49.672] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/shaki/.gradle/caches/fabric-loom/minecraftMaven/net/minecraft/forge-1.20.1-47.4.0-minecraft-merged/1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2-forge-1.20.1-47.4.0/forge-1.20.1-47.4.0-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2-forge-1.20.1-47.4.0.jar%23199!/assets/.mcassetsroot' uses unexpected schema
+[08Jun2025 17:56:49.673] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/shaki/.gradle/caches/fabric-loom/minecraftMaven/net/minecraft/forge-1.20.1-47.4.0-minecraft-merged/1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2-forge-1.20.1-47.4.0/forge-1.20.1-47.4.0-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2-forge-1.20.1-47.4.0.jar%23199!/data/.mcassetsroot' uses unexpected schema
+[08Jun2025 17:56:49.689] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[08Jun2025 17:56:49.693] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[08Jun2025 17:56:49.780] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.2+13
+[08Jun2025 17:56:50.036] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[08Jun2025 17:56:50.036] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[08Jun2025 17:56:50.208] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id architectury:sync_ids
+[08Jun2025 17:56:50.209] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[08Jun2025 17:56:50.238] [modloading-worker-0/INFO] [Tardis Refined/]: ImmersivePortals was not detected.
+[08Jun2025 17:56:51.184] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[08Jun2025 17:56:51.192] [Render thread/INFO] [screwdrivers_plus/]: Registering mod models
+[08Jun2025 17:56:51.289] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[08Jun2025 17:56:51.378] [Worker-Main-4/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[08Jun2025 17:56:51.399] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[08Jun2025 17:56:51.885] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
+[08Jun2025 17:56:53.966] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[08Jun2025 17:56:53.967] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[08Jun2025 17:56:54.026] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[08Jun2025 17:56:54.027] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[08Jun2025 17:56:54.167] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[08Jun2025 17:56:54.177] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[08Jun2025 17:56:54.179] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[08Jun2025 17:56:54.179] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[08Jun2025 17:56:54.180] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[08Jun2025 17:56:54.183] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[08Jun2025 17:56:54.185] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[08Jun2025 17:56:54.186] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[08Jun2025 17:56:54.186] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[08Jun2025 17:56:54.218] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/shulker_door
+[08Jun2025 17:56:54.234] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/castle_door
+[08Jun2025 17:56:54.234] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/present_shell
+[08Jun2025 17:56:54.236] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/castle_shell
+[08Jun2025 17:56:54.244] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:console/initiative
+[08Jun2025 17:56:54.258] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:console/nuka
+[08Jun2025 17:56:54.265] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/present_door
+[08Jun2025 17:56:54.265] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/root_shell
+[08Jun2025 17:56:54.266] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:console/copper
+[08Jun2025 17:56:54.270] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/half_baked_door
+[08Jun2025 17:56:54.270] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/lift_shell
+[08Jun2025 17:56:54.272] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/groening_shell
+[08Jun2025 17:56:54.274] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:console/coral
+[08Jun2025 17:56:54.277] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/briefcase_shell
+[08Jun2025 17:56:54.277] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/half_baked_shell
+[08Jun2025 17:56:54.278] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/hieroglyph_shell
+[08Jun2025 17:56:54.281] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/vending_door
+[08Jun2025 17:56:54.281] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/phone_booth_shell
+[08Jun2025 17:56:54.282] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/pagoda_door
+[08Jun2025 17:56:54.283] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/root_shell_door
+[08Jun2025 17:56:54.283] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/drifter_shell
+[08Jun2025 17:56:54.286] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/phone_booth_door
+[08Jun2025 17:56:54.286] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/nuka_shell
+[08Jun2025 17:56:54.287] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/pagoda_shell
+[08Jun2025 17:56:54.288] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/pathfinder_shell
+[08Jun2025 17:56:54.289] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:growth/root_plant_three
+[08Jun2025 17:56:54.289] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:console/refurbished
+[08Jun2025 17:56:54.306] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/pathfinder_door
+[08Jun2025 17:56:54.307] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/mystic_shell
+[08Jun2025 17:56:54.310] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:technology/artron_pillar
+[08Jun2025 17:56:54.310] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/growth_shell
+[08Jun2025 17:56:54.311] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:growth/root_plant_four
+[08Jun2025 17:56:54.312] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/growth_door
+[08Jun2025 17:56:54.312] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/mystic_door
+[08Jun2025 17:56:54.312] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/police_box_shell
+[08Jun2025 17:56:54.314] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/big_ben_shell
+[08Jun2025 17:56:54.317] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:console/myst
+[08Jun2025 17:56:54.323] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/hieroglyph_door
+[08Jun2025 17:56:54.324] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/factory_shell
+[08Jun2025 17:56:54.324] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:growth/root_plant_five
+[08Jun2025 17:56:54.325] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/vending_shell
+[08Jun2025 17:56:54.326] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:console/factory
+[08Jun2025 17:56:54.327] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/police_box_door
+[08Jun2025 17:56:54.328] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/lift_door
+[08Jun2025 17:56:54.328] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:growth/root_plant_two
+[08Jun2025 17:56:54.329] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/portaloo_shell
+[08Jun2025 17:56:54.330] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/briefcase_door
+[08Jun2025 17:56:54.330] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:console/crystal
+[08Jun2025 17:56:54.341] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/drifter_door
+[08Jun2025 17:56:54.341] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:console/toyota
+[08Jun2025 17:56:54.343] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:shell/shulker_shell
+[08Jun2025 17:56:54.344] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:growth/root_plant_one
+[08Jun2025 17:56:54.344] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:console/victorian
+[08Jun2025 17:56:54.357] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/groening_door
+[08Jun2025 17:56:54.357] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/portaloo_door
+[08Jun2025 17:56:54.357] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:living/ars_egg
+[08Jun2025 17:56:54.357] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/bulk_head_door
+[08Jun2025 17:56:54.357] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/big_ben_door
+[08Jun2025 17:56:54.357] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/nuka_door
+[08Jun2025 17:56:54.358] [Render thread/INFO] [TardisRefined/ModelLayerManager/]: Loading model: tardis_refined:door/factory_door
+[08Jun2025 17:56:54.370] [Render thread/INFO] [TardisRefined/FrameByJeryn/]: Loading animation: tardis_refined:frame/living/ars_egg/crashing.json
+[08Jun2025 17:56:54.371] [Render thread/INFO] [TardisRefined/FrameByJeryn/]: Loading animation: tardis_refined:frame/living/ars_egg/swinging.json
+[08Jun2025 17:56:54.434] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[08Jun2025 17:56:54.485] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[08Jun2025 17:56:54.486] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[08Jun2025 17:56:54.487] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[08Jun2025 17:56:54.689] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[08Jun2025 18:15:42.124] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+generated_39f1444 (version 1 -> MISSING)
 Things may not work well.
-[08Jun2025 16:52:12.542] [Render thread/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:generated_c643d99
-[08Jun2025 16:52:13.379] [Worker-Main-3/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Beginning loading of data for data loader: tardis_refined/patterns/console
-[08Jun2025 16:52:13.382] [Worker-Main-6/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Beginning loading of data for data loader: tardis_refined/patterns/shell
-[08Jun2025 16:52:13.384] [Worker-Main-6/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/big_ben.json for tardis_refined:big_ben
-[08Jun2025 16:52:13.384] [Worker-Main-3/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/console/copper.json for tardis_refined:copper
-[08Jun2025 16:52:13.385] [Worker-Main-6/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/briefcase.json for tardis_refined:briefcase
-[08Jun2025 16:52:13.386] [Worker-Main-6/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/castle.json for tardis_refined:castle
-[08Jun2025 16:52:13.386] [Worker-Main-3/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/console/coral.json for tardis_refined:coral
-[08Jun2025 16:52:13.386] [Worker-Main-6/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/drifter.json for tardis_refined:drifter
-[08Jun2025 16:52:13.387] [Worker-Main-6/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/factory.json for tardis_refined:factory
-[08Jun2025 16:52:13.387] [Worker-Main-6/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/groening.json for tardis_refined:groening
-[08Jun2025 16:52:13.387] [Worker-Main-3/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/console/crystal.json for tardis_refined:crystal
-[08Jun2025 16:52:13.387] [Worker-Main-6/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/growth.json for tardis_refined:growth
-[08Jun2025 16:52:13.387] [Worker-Main-6/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/half_baked.json for tardis_refined:half_baked
-[08Jun2025 16:52:13.388] [Worker-Main-6/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/hieroglyph.json for tardis_refined:hieroglyph
-[08Jun2025 16:52:13.388] [Worker-Main-6/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/lift.json for tardis_refined:lift
-[08Jun2025 16:52:13.389] [Worker-Main-6/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/mystic.json for tardis_refined:mystic
-[08Jun2025 16:52:13.389] [Worker-Main-3/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/console/factory.json for tardis_refined:factory
-[08Jun2025 16:52:13.389] [Worker-Main-6/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/nuka.json for tardis_refined:nuka
-[08Jun2025 16:52:13.390] [Worker-Main-6/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/pagoda.json for tardis_refined:pagoda
-[08Jun2025 16:52:13.390] [Worker-Main-6/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/pathfinder.json for tardis_refined:pathfinder
-[08Jun2025 16:52:13.390] [Worker-Main-6/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/phone_booth.json for tardis_refined:phone_booth
-[08Jun2025 16:52:13.391] [Worker-Main-3/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/console/initiative.json for tardis_refined:initiative
-[08Jun2025 16:52:13.391] [Worker-Main-6/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/police_box.json for tardis_refined:police_box
-[08Jun2025 16:52:13.392] [Worker-Main-6/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/portaloo.json for tardis_refined:portaloo
-[08Jun2025 16:52:13.392] [Worker-Main-3/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/console/myst.json for tardis_refined:myst
-[08Jun2025 16:52:13.392] [Worker-Main-6/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/present.json for tardis_refined:present
-[08Jun2025 16:52:13.394] [Worker-Main-3/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/console/nuka.json for tardis_refined:nuka
-[08Jun2025 16:52:13.394] [Worker-Main-6/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/shulker.json for tardis_refined:shulker
-[08Jun2025 16:52:13.394] [Worker-Main-3/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/console/refurbished.json for tardis_refined:refurbished
-[08Jun2025 16:52:13.395] [Worker-Main-6/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/vending.json for tardis_refined:vending
-[08Jun2025 16:52:13.395] [Worker-Main-6/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Data loader for tardis_refined/patterns/shell loaded 0 jsons
-[08Jun2025 16:52:13.396] [Worker-Main-3/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/console/toyota.json for tardis_refined:toyota
-[08Jun2025 16:52:13.397] [Worker-Main-3/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/console/victorian.json for tardis_refined:victorian
-[08Jun2025 16:52:13.397] [Worker-Main-3/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Data loader for tardis_refined/patterns/console loaded 0 jsons
-[08Jun2025 16:52:13.715] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
-[08Jun2025 16:52:13.813] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1290 advancements
-[08Jun2025 16:52:13.816] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Beginning loading of data for data loader: tardis_refined/desktops
-[08Jun2025 16:52:13.816] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:mechanical
-[08Jun2025 16:52:13.816] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:newwave
-[08Jun2025 16:52:13.816] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:future_nostalgia
-[08Jun2025 16:52:13.816] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:terraformed
-[08Jun2025 16:52:13.816] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:crystal
-[08Jun2025 16:52:13.817] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:copper
-[08Jun2025 16:52:13.817] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:violet_eye
-[08Jun2025 16:52:13.817] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:hellbound
-[08Jun2025 16:52:13.817] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:victorian
-[08Jun2025 16:52:13.817] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:ironguard
-[08Jun2025 16:52:13.817] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:mesh
-[08Jun2025 16:52:13.817] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:arnet
-[08Jun2025 16:52:13.817] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:coral
-[08Jun2025 16:52:13.817] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:radiance
-[08Jun2025 16:52:13.817] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:nuka
-[08Jun2025 16:52:13.817] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:pertwee
-[08Jun2025 16:52:13.817] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:hartnell
-[08Jun2025 16:52:13.817] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:refurbished
-[08Jun2025 16:52:13.817] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:toyota
-[08Jun2025 16:52:13.817] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:vapor
-[08Jun2025 16:52:13.817] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:classic
-[08Jun2025 16:52:13.818] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:factory
-[08Jun2025 16:52:13.818] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:panamax
-[08Jun2025 16:52:13.818] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:lodestone
-[08Jun2025 16:52:13.818] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:watchface
-[08Jun2025 16:52:13.818] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Data loader for tardis_refined/desktops loaded 25 entries
-[08Jun2025 16:52:13.818] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Beginning loading of data for data loader: tardis_refined/hums
-[08Jun2025 16:52:13.818] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:crimson_forest
-[08Jun2025 16:52:13.818] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:under_water
-[08Jun2025 16:52:13.818] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:soul_sand_valley
-[08Jun2025 16:52:13.818] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:basalt_deltas
-[08Jun2025 16:52:13.818] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:nether_wastes
-[08Jun2025 16:52:13.818] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:warped_forest
-[08Jun2025 16:52:13.818] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:copper
-[08Jun2025 16:52:13.818] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:aviatrax
-[08Jun2025 16:52:13.819] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:toyota
-[08Jun2025 16:52:13.819] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:victorian
-[08Jun2025 16:52:13.819] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:classic
-[08Jun2025 16:52:13.819] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:cave
-[08Jun2025 16:52:13.819] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:coral
-[08Jun2025 16:52:13.819] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Data loader for tardis_refined/hums loaded 13 entries
-[08Jun2025 16:52:14.396] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[08Jun2025 16:52:14.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[08Jun2025 16:52:15.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[08Jun2025 16:52:17.731] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jun2025 16:52:17.750] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jun2025 16:52:17.768] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jun2025 16:52:17.768] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jun2025 16:52:17.786] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jun2025 16:52:18.198] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jun2025 16:52:18.703] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 57%
-[08Jun2025 16:52:19.004] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[08Jun2025 16:52:19.006] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3319 ms
-[08Jun2025 16:52:19.163] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 16, from 10
-[08Jun2025 16:52:19.166] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[08Jun2025 16:52:19.263] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[08Jun2025 16:52:19.631] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[08Jun2025 16:52:19.671] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:c41bab90] logged in with entity id 163 at (67.29634258820114, 64.0, 120.88258722629978)
-[08Jun2025 16:52:19.688] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:arnet
-[08Jun2025 16:52:19.689] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:copper
-[08Jun2025 16:52:19.689] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:coral
-[08Jun2025 16:52:19.689] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:crystal
-[08Jun2025 16:52:19.689] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:factory
-[08Jun2025 16:52:19.689] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:future_nostalgia
-[08Jun2025 16:52:19.689] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:hellbound
-[08Jun2025 16:52:19.689] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:ironguard
-[08Jun2025 16:52:19.690] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:lodestone
-[08Jun2025 16:52:19.690] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:mechanical
-[08Jun2025 16:52:19.690] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:mesh
-[08Jun2025 16:52:19.690] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:newwave
-[08Jun2025 16:52:19.690] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:nuka
-[08Jun2025 16:52:19.690] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:radiance
-[08Jun2025 16:52:19.690] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:refurbished
-[08Jun2025 16:52:19.691] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:toyota
-[08Jun2025 16:52:19.691] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:vapor
-[08Jun2025 16:52:19.691] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:victorian
-[08Jun2025 16:52:19.691] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:violet_eye
-[08Jun2025 16:52:19.691] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:watchface
-[08Jun2025 16:52:19.691] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:classic
-[08Jun2025 16:52:19.691] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:terraformed
-[08Jun2025 16:52:19.692] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:panamax
-[08Jun2025 16:52:19.692] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:hartnell
-[08Jun2025 16:52:19.692] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:pertwee
-[08Jun2025 16:52:19.711] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:default for tardis_refined:copper
-[08Jun2025 16:52:19.712] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:default for tardis_refined:coral
-[08Jun2025 16:52:19.712] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:default for tardis_refined:crystal
-[08Jun2025 16:52:19.712] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:default for tardis_refined:factory
-[08Jun2025 16:52:19.712] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:default for tardis_refined:initiative
-[08Jun2025 16:52:19.712] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:default for tardis_refined:myst
-[08Jun2025 16:52:19.712] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:default for tardis_refined:nuka
-[08Jun2025 16:52:19.712] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:default for tardis_refined:refurbished
-[08Jun2025 16:52:19.712] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:default for tardis_refined:toyota
-[08Jun2025 16:52:19.713] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:default for tardis_refined:victorian
-[08Jun2025 16:52:19.713] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:war for tardis_refined:coral
-[08Jun2025 16:52:19.713] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:blue for tardis_refined:coral
-[08Jun2025 16:52:19.713] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:vintage for tardis_refined:factory
-[08Jun2025 16:52:19.713] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:mint for tardis_refined:factory
-[08Jun2025 16:52:19.713] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:wood for tardis_refined:factory
-[08Jun2025 16:52:19.713] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:violet for tardis_refined:toyota
-[08Jun2025 16:52:19.714] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:blue for tardis_refined:toyota
-[08Jun2025 16:52:19.714] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:skulk for tardis_refined:toyota
-[08Jun2025 16:52:19.714] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:corrupted for tardis_refined:crystal
-[08Jun2025 16:52:19.714] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:molten for tardis_refined:myst
-[08Jun2025 16:52:19.714] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:bronze_age for tardis_refined:victorian
-[08Jun2025 16:52:19.714] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:aperture for tardis_refined:initiative
-[08Jun2025 16:52:19.714] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:blue for tardis_refined:initiative
-[08Jun2025 16:52:19.714] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:construction for tardis_refined:initiative
-[08Jun2025 16:52:19.714] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:industrial for tardis_refined:nuka
-[08Jun2025 16:52:19.715] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:cool for tardis_refined:nuka
-[08Jun2025 16:52:19.715] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:sculk for tardis_refined:copper
-[08Jun2025 16:52:19.724] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:faded for tardis_refined:police_box
-[08Jun2025 16:52:19.724] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:fourteen for tardis_refined:police_box
-[08Jun2025 16:52:19.724] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:barbie for tardis_refined:police_box
-[08Jun2025 16:52:19.724] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:metal for tardis_refined:phone_booth
-[08Jun2025 16:52:19.724] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:cardboard for tardis_refined:present
-[08Jun2025 16:52:19.724] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:intel for tardis_refined:briefcase
-[08Jun2025 16:52:19.724] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:metal for tardis_refined:briefcase
-[08Jun2025 16:52:19.725] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:mesa for tardis_refined:briefcase
-[08Jun2025 16:52:19.725] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:dwarven for tardis_refined:mystic
-[08Jun2025 16:52:19.725] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:gothic for tardis_refined:big_ben
-[08Jun2025 16:52:19.725] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_black for tardis_refined:shulker
-[08Jun2025 16:52:19.725] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_blue for tardis_refined:shulker
-[08Jun2025 16:52:19.725] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_brown for tardis_refined:shulker
-[08Jun2025 16:52:19.725] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_cyan for tardis_refined:shulker
-[08Jun2025 16:52:19.725] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_gray for tardis_refined:shulker
-[08Jun2025 16:52:19.726] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_green for tardis_refined:shulker
-[08Jun2025 16:52:19.726] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_light_blue for tardis_refined:shulker
-[08Jun2025 16:52:19.726] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_light_gray for tardis_refined:shulker
-[08Jun2025 16:52:19.726] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_lime for tardis_refined:shulker
-[08Jun2025 16:52:19.726] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_magenta for tardis_refined:shulker
-[08Jun2025 16:52:19.726] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_orange for tardis_refined:shulker
-[08Jun2025 16:52:19.726] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_pink for tardis_refined:shulker
-[08Jun2025 16:52:19.726] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_purple for tardis_refined:shulker
-[08Jun2025 16:52:19.727] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_red for tardis_refined:shulker
-[08Jun2025 16:52:19.727] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_white for tardis_refined:shulker
-[08Jun2025 16:52:19.727] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_yellow for tardis_refined:shulker
-[08Jun2025 16:52:19.727] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker for tardis_refined:shulker
-[08Jun2025 16:52:19.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[08Jun2025 16:52:20.606] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2 advancements
-[08Jun2025 16:52:37.217] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] What's up sonic!
-[08Jun2025 16:52:37.230] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] What's up sonic!
-[08Jun2025 16:52:37.366] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] What's up sonic!
-[08Jun2025 16:52:37.384] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] What's up sonic!
-[08Jun2025 16:52:37.612] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] What's up sonic!
-[08Jun2025 16:52:37.621] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] What's up sonic!
-[08Jun2025 16:52:37.815] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] What's up sonic!
-[08Jun2025 16:52:37.822] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] What's up sonic!
-[08Jun2025 16:52:40.115] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] What's up sonic!
-[08Jun2025 16:52:40.125] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] What's up sonic!
-[08Jun2025 16:52:40.312] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] What's up sonic!
-[08Jun2025 16:52:40.320] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] What's up sonic!
-[08Jun2025 16:52:41.316] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] What's up sonic!
-[08Jun2025 16:52:41.324] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] What's up sonic!
-[08Jun2025 16:52:41.512] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] What's up sonic!
-[08Jun2025 16:52:41.523] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] What's up sonic!
-[08Jun2025 16:52:42.318] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] What's up sonic!
-[08Jun2025 16:52:42.332] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] What's up sonic!
-[08Jun2025 16:52:42.520] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] What's up sonic!
-[08Jun2025 16:52:42.717] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] What's up sonic!
-[08Jun2025 16:52:42.800] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] What's up sonic!
-[08Jun2025 16:52:42.801] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] What's up sonic!
-[08Jun2025 16:52:42.940] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] What's up sonic!
-[08Jun2025 16:52:42.960] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] What's up sonic!
-[08Jun2025 16:52:43.146] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] What's up sonic!
-[08Jun2025 16:52:43.168] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] What's up sonic!
-[08Jun2025 16:52:43.857] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[08Jun2025 16:52:43.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[08Jun2025 16:52:43.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[08Jun2025 16:52:43.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[08Jun2025 16:52:44.513] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[08Jun2025 16:52:44.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[08Jun2025 16:52:44.520] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[08Jun2025 16:52:44.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[08Jun2025 16:52:44.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[08Jun2025 16:52:44.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[08Jun2025 16:52:45.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[08Jun2025 16:52:48.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[08Jun2025 16:52:48.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[08Jun2025 16:52:48.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[08Jun2025 16:52:48.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[08Jun2025 16:52:48.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[08Jun2025 16:52:48.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[08Jun2025 16:52:55.412] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[08Jun2025 18:15:42.659] [Render thread/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:generated_39f1444
+[08Jun2025 18:15:43.507] [Worker-Main-16/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Beginning loading of data for data loader: tardis_refined/patterns/console
+[08Jun2025 18:15:43.507] [Worker-Main-14/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Beginning loading of data for data loader: tardis_refined/patterns/shell
+[08Jun2025 18:15:43.510] [Worker-Main-16/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/console/copper.json for tardis_refined:copper
+[08Jun2025 18:15:43.512] [Worker-Main-16/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/console/coral.json for tardis_refined:coral
+[08Jun2025 18:15:43.510] [Worker-Main-14/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/big_ben.json for tardis_refined:big_ben
+[08Jun2025 18:15:43.512] [Worker-Main-16/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/console/crystal.json for tardis_refined:crystal
+[08Jun2025 18:15:43.513] [Worker-Main-14/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/briefcase.json for tardis_refined:briefcase
+[08Jun2025 18:15:43.513] [Worker-Main-14/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/castle.json for tardis_refined:castle
+[08Jun2025 18:15:43.513] [Worker-Main-14/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/drifter.json for tardis_refined:drifter
+[08Jun2025 18:15:43.513] [Worker-Main-16/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/console/factory.json for tardis_refined:factory
+[08Jun2025 18:15:43.514] [Worker-Main-14/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/factory.json for tardis_refined:factory
+[08Jun2025 18:15:43.514] [Worker-Main-14/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/groening.json for tardis_refined:groening
+[08Jun2025 18:15:43.514] [Worker-Main-14/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/growth.json for tardis_refined:growth
+[08Jun2025 18:15:43.514] [Worker-Main-16/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/console/initiative.json for tardis_refined:initiative
+[08Jun2025 18:15:43.514] [Worker-Main-14/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/half_baked.json for tardis_refined:half_baked
+[08Jun2025 18:15:43.515] [Worker-Main-14/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/hieroglyph.json for tardis_refined:hieroglyph
+[08Jun2025 18:15:43.515] [Worker-Main-16/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/console/myst.json for tardis_refined:myst
+[08Jun2025 18:15:43.515] [Worker-Main-14/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/lift.json for tardis_refined:lift
+[08Jun2025 18:15:43.515] [Worker-Main-14/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/mystic.json for tardis_refined:mystic
+[08Jun2025 18:15:43.516] [Worker-Main-16/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/console/nuka.json for tardis_refined:nuka
+[08Jun2025 18:15:43.516] [Worker-Main-14/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/nuka.json for tardis_refined:nuka
+[08Jun2025 18:15:43.516] [Worker-Main-14/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/pagoda.json for tardis_refined:pagoda
+[08Jun2025 18:15:43.516] [Worker-Main-16/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/console/refurbished.json for tardis_refined:refurbished
+[08Jun2025 18:15:43.516] [Worker-Main-14/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/pathfinder.json for tardis_refined:pathfinder
+[08Jun2025 18:15:43.517] [Worker-Main-14/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/phone_booth.json for tardis_refined:phone_booth
+[08Jun2025 18:15:43.517] [Worker-Main-16/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/console/toyota.json for tardis_refined:toyota
+[08Jun2025 18:15:43.517] [Worker-Main-14/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/police_box.json for tardis_refined:police_box
+[08Jun2025 18:15:43.517] [Worker-Main-14/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/portaloo.json for tardis_refined:portaloo
+[08Jun2025 18:15:43.518] [Worker-Main-16/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/console/victorian.json for tardis_refined:victorian
+[08Jun2025 18:15:43.518] [Worker-Main-16/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Data loader for tardis_refined/patterns/console loaded 0 jsons
+[08Jun2025 18:15:43.518] [Worker-Main-14/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/present.json for tardis_refined:present
+[08Jun2025 18:15:43.519] [Worker-Main-14/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/shulker.json for tardis_refined:shulker
+[08Jun2025 18:15:43.519] [Worker-Main-14/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Adding Pattern tardis_refined:tardis_refined/patterns/shell/vending.json for tardis_refined:vending
+[08Jun2025 18:15:43.519] [Worker-Main-14/INFO] [TardisRefined/MergeableCodecJsonReloadListener/]: Data loader for tardis_refined/patterns/shell loaded 0 jsons
+[08Jun2025 18:15:43.851] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[08Jun2025 18:15:43.959] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1290 advancements
+[08Jun2025 18:15:43.962] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Beginning loading of data for data loader: tardis_refined/desktops
+[08Jun2025 18:15:43.962] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:mechanical
+[08Jun2025 18:15:43.962] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:newwave
+[08Jun2025 18:15:43.962] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:future_nostalgia
+[08Jun2025 18:15:43.962] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:terraformed
+[08Jun2025 18:15:43.963] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:crystal
+[08Jun2025 18:15:43.963] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:copper
+[08Jun2025 18:15:43.963] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:violet_eye
+[08Jun2025 18:15:43.963] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:hellbound
+[08Jun2025 18:15:43.963] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:victorian
+[08Jun2025 18:15:43.963] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:ironguard
+[08Jun2025 18:15:43.963] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:mesh
+[08Jun2025 18:15:43.963] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:arnet
+[08Jun2025 18:15:43.963] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:coral
+[08Jun2025 18:15:43.963] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:radiance
+[08Jun2025 18:15:43.963] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:nuka
+[08Jun2025 18:15:43.963] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:pertwee
+[08Jun2025 18:15:43.963] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:hartnell
+[08Jun2025 18:15:43.963] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:refurbished
+[08Jun2025 18:15:43.963] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:toyota
+[08Jun2025 18:15:43.963] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:vapor
+[08Jun2025 18:15:43.963] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:classic
+[08Jun2025 18:15:43.963] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:factory
+[08Jun2025 18:15:43.964] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:panamax
+[08Jun2025 18:15:43.964] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:lodestone
+[08Jun2025 18:15:43.964] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:watchface
+[08Jun2025 18:15:43.964] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Data loader for tardis_refined/desktops loaded 25 entries
+[08Jun2025 18:15:43.964] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Beginning loading of data for data loader: tardis_refined/hums
+[08Jun2025 18:15:43.964] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:crimson_forest
+[08Jun2025 18:15:43.964] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:under_water
+[08Jun2025 18:15:43.964] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:soul_sand_valley
+[08Jun2025 18:15:43.964] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:basalt_deltas
+[08Jun2025 18:15:43.964] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:nether_wastes
+[08Jun2025 18:15:43.964] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:warped_forest
+[08Jun2025 18:15:43.964] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:copper
+[08Jun2025 18:15:43.964] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:aviatrax
+[08Jun2025 18:15:43.964] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:toyota
+[08Jun2025 18:15:43.965] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:victorian
+[08Jun2025 18:15:43.965] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:classic
+[08Jun2025 18:15:43.965] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:cave
+[08Jun2025 18:15:43.965] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Adding entry tardis_refined:coral
+[08Jun2025 18:15:43.965] [Render thread/INFO] [TardisRefined/CodecJsonReloadListener/]: Data loader for tardis_refined/hums loaded 13 entries
+[08Jun2025 18:15:44.521] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[08Jun2025 18:15:44.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[08Jun2025 18:15:46.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[08Jun2025 18:15:48.512] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jun2025 18:15:48.531] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jun2025 18:15:48.531] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jun2025 18:15:48.550] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jun2025 18:15:48.550] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jun2025 18:15:48.772] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Jun2025 18:15:49.271] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[08Jun2025 18:15:49.582] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3328 ms
+[08Jun2025 18:15:49.583] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[08Jun2025 18:15:49.723] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 16, from 10
+[08Jun2025 18:15:49.725] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[08Jun2025 18:15:49.807] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[08Jun2025 18:15:50.136] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[08Jun2025 18:15:50.206] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:03199d75] logged in with entity id 158 at (-66.70791546167517, 64.0, 85.11257012084639)
+[08Jun2025 18:15:50.270] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:arnet
+[08Jun2025 18:15:50.270] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:copper
+[08Jun2025 18:15:50.271] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:coral
+[08Jun2025 18:15:50.271] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:crystal
+[08Jun2025 18:15:50.271] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:factory
+[08Jun2025 18:15:50.271] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:future_nostalgia
+[08Jun2025 18:15:50.271] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:hellbound
+[08Jun2025 18:15:50.271] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:ironguard
+[08Jun2025 18:15:50.271] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:lodestone
+[08Jun2025 18:15:50.271] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:mechanical
+[08Jun2025 18:15:50.272] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:mesh
+[08Jun2025 18:15:50.272] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:newwave
+[08Jun2025 18:15:50.272] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:nuka
+[08Jun2025 18:15:50.272] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:radiance
+[08Jun2025 18:15:50.272] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:refurbished
+[08Jun2025 18:15:50.272] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:toyota
+[08Jun2025 18:15:50.272] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:vapor
+[08Jun2025 18:15:50.272] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:victorian
+[08Jun2025 18:15:50.272] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:violet_eye
+[08Jun2025 18:15:50.273] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:watchface
+[08Jun2025 18:15:50.273] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:classic
+[08Jun2025 18:15:50.273] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:terraformed
+[08Jun2025 18:15:50.273] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:panamax
+[08Jun2025 18:15:50.273] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:hartnell
+[08Jun2025 18:15:50.273] [Netty Local Client IO #0/INFO] [TardisRefined/TardisDesktops/]: Adding default Desktop tardis_refined:pertwee
+[08Jun2025 18:15:50.299] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:default for tardis_refined:copper
+[08Jun2025 18:15:50.299] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:default for tardis_refined:coral
+[08Jun2025 18:15:50.299] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:default for tardis_refined:crystal
+[08Jun2025 18:15:50.299] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:default for tardis_refined:factory
+[08Jun2025 18:15:50.300] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:default for tardis_refined:initiative
+[08Jun2025 18:15:50.300] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:default for tardis_refined:myst
+[08Jun2025 18:15:50.300] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:default for tardis_refined:nuka
+[08Jun2025 18:15:50.300] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:default for tardis_refined:refurbished
+[08Jun2025 18:15:50.300] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:default for tardis_refined:toyota
+[08Jun2025 18:15:50.300] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:default for tardis_refined:victorian
+[08Jun2025 18:15:50.300] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:war for tardis_refined:coral
+[08Jun2025 18:15:50.300] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:blue for tardis_refined:coral
+[08Jun2025 18:15:50.301] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:vintage for tardis_refined:factory
+[08Jun2025 18:15:50.301] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:mint for tardis_refined:factory
+[08Jun2025 18:15:50.301] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:wood for tardis_refined:factory
+[08Jun2025 18:15:50.301] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:violet for tardis_refined:toyota
+[08Jun2025 18:15:50.301] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:blue for tardis_refined:toyota
+[08Jun2025 18:15:50.301] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:skulk for tardis_refined:toyota
+[08Jun2025 18:15:50.301] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:corrupted for tardis_refined:crystal
+[08Jun2025 18:15:50.302] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:molten for tardis_refined:myst
+[08Jun2025 18:15:50.302] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:bronze_age for tardis_refined:victorian
+[08Jun2025 18:15:50.302] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:aperture for tardis_refined:initiative
+[08Jun2025 18:15:50.302] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:blue for tardis_refined:initiative
+[08Jun2025 18:15:50.304] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:construction for tardis_refined:initiative
+[08Jun2025 18:15:50.304] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:industrial for tardis_refined:nuka
+[08Jun2025 18:15:50.304] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:cool for tardis_refined:nuka
+[08Jun2025 18:15:50.304] [Netty Local Client IO #0/INFO] [TardisRefined/ConsolePatterns/]: Adding ConsolePattern tardis_refined:sculk for tardis_refined:copper
+[08Jun2025 18:15:50.342] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:faded for tardis_refined:police_box
+[08Jun2025 18:15:50.342] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:fourteen for tardis_refined:police_box
+[08Jun2025 18:15:50.342] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:barbie for tardis_refined:police_box
+[08Jun2025 18:15:50.343] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:metal for tardis_refined:phone_booth
+[08Jun2025 18:15:50.343] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:cardboard for tardis_refined:present
+[08Jun2025 18:15:50.343] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:intel for tardis_refined:briefcase
+[08Jun2025 18:15:50.343] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:metal for tardis_refined:briefcase
+[08Jun2025 18:15:50.343] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:mesa for tardis_refined:briefcase
+[08Jun2025 18:15:50.343] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:dwarven for tardis_refined:mystic
+[08Jun2025 18:15:50.344] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:gothic for tardis_refined:big_ben
+[08Jun2025 18:15:50.344] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_black for tardis_refined:shulker
+[08Jun2025 18:15:50.344] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_blue for tardis_refined:shulker
+[08Jun2025 18:15:50.344] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_brown for tardis_refined:shulker
+[08Jun2025 18:15:50.344] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_cyan for tardis_refined:shulker
+[08Jun2025 18:15:50.344] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_gray for tardis_refined:shulker
+[08Jun2025 18:15:50.345] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_green for tardis_refined:shulker
+[08Jun2025 18:15:50.345] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_light_blue for tardis_refined:shulker
+[08Jun2025 18:15:50.345] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_light_gray for tardis_refined:shulker
+[08Jun2025 18:15:50.345] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_lime for tardis_refined:shulker
+[08Jun2025 18:15:50.345] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_magenta for tardis_refined:shulker
+[08Jun2025 18:15:50.345] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_orange for tardis_refined:shulker
+[08Jun2025 18:15:50.345] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_pink for tardis_refined:shulker
+[08Jun2025 18:15:50.345] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_purple for tardis_refined:shulker
+[08Jun2025 18:15:50.345] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_red for tardis_refined:shulker
+[08Jun2025 18:15:50.346] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_white for tardis_refined:shulker
+[08Jun2025 18:15:50.346] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker_yellow for tardis_refined:shulker
+[08Jun2025 18:15:50.346] [Netty Local Client IO #0/INFO] [TardisRefined/ShellPatterns/]: Adding Shell Pattern tardis_refined:shulker for tardis_refined:shulker
+[08Jun2025 18:15:50.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[08Jun2025 18:15:51.166] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 72 advancements
+[08Jun2025 18:16:37.036] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[08Jun2025 18:16:37.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[08Jun2025 18:16:37.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[08Jun2025 18:16:37.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[08Jun2025 18:16:37.646] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[08Jun2025 18:16:37.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[08Jun2025 18:16:37.660] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[08Jun2025 18:16:37.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[08Jun2025 18:16:37.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[08Jun2025 18:16:37.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[08Jun2025 18:16:38.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[08Jun2025 18:16:39.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[08Jun2025 18:16:39.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[08Jun2025 18:16:39.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[08Jun2025 18:16:39.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08Jun2025 18:16:39.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08Jun2025 18:16:39.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08Jun2025 18:16:41.480] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
