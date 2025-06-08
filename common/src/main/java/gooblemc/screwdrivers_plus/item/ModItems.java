@@ -23,8 +23,8 @@ public class ModItems {
 
     public static final DeferredRegistry<Item> ITEMS = DeferredRegistry.create(ScrewdriversPlus.MOD_ID, Registries.ITEM);
 
-    //Sonic Screwdriver Items - Always registered
-    public static final RegistrySupplier<Item> SONIC15 = registerItem("sonic_screwdriver", () -> new SonicItem(new Item.Properties().stacksTo(1)), true);
+    public static final RegistrySupplier<Item> SONIC_SCREWDRIVER = registerItem("sonic_screwdriver",
+            () -> new SonicItem(new Item.Properties().stacksTo(1)), true);
 
     // Generic registration helper
     public static RegistrySupplier<Item> registerItem(String name, Supplier<Item> item, boolean addToTab) {

@@ -1,4 +1,8 @@
 {
+  "itemgroup.screwdrivers_plus": "Screwdrivers+",
+
   "item.screwdrivers_plus.sonic_screwdriver": "Sonic Screwdriver",
-  "itemgroup.screwdrivers_plus": "Screwdrivers+"
+
+  "block.screwdrivers_plus.engineers_table": "Engineer's Table",
+  "block.screwdrivers_plus.chameleon_box": "Chameleon Box"
 }

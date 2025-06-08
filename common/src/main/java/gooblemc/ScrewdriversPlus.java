@@ -1,5 +1,6 @@
 package gooblemc;
 
+import gooblemc.screwdrivers_plus.block.ModBlocks;
 import gooblemc.screwdrivers_plus.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,6 +12,7 @@ public final class ScrewdriversPlus {
 
     public static void init() {
         ModItems.TABS.registerToModBus();
+        ModBlocks.BLOCKS.registerToModBus();
         ModItems.ITEMS.registerToModBus();
     }
 

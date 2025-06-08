@@ -1,6 +1,6 @@
 package gooblemc.screwdrivers_plus.item.custom;
 
-import gooblemc.screwdrivers_plus.util.sonic.SonicEngine;
+import gooblemc.screwdrivers_plus.sonic.SonicEngine;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.LivingEntity;

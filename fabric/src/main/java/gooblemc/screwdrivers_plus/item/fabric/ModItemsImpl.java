@@ -11,7 +11,7 @@ import whocraft.tardis_refined.registry.RegistrySupplier;
 public class ModItemsImpl {
 
     public static final CreativeModeTab ITEM_GROUP = FabricItemGroup.builder()
-            .icon(() -> new ItemStack(ModItems.SONIC15.get()))
+            .icon(() -> new ItemStack(ModItems.SONIC_SCREWDRIVER.get()))
             .title(Component.translatable("itemgroup.screwdrivers_plus")).displayItems((displayContext, entries) -> {
                 for (RegistrySupplier<Item> tabItem : ModItems.TAB_ITEMS) {
                     entries.accept(tabItem.get());

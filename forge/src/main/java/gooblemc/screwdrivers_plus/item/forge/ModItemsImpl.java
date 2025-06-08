@@ -18,7 +18,7 @@ public class ModItemsImpl {
     public static CreativeModeTab getCreativeTab() {
         return CreativeModeTab.builder()
                 .title(Component.translatable("itemgroup.screwdrivers_plus"))
-                .icon(() -> new ItemStack(ModItems.SONIC15.get()))
+                .icon(() -> new ItemStack(ModItems.SONIC_SCREWDRIVER.get()))
                 .build();
     }
 
