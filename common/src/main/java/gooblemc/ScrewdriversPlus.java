@@ -1,6 +1,7 @@
 package gooblemc;
 
 import gooblemc.screwdrivers_plus.block.ModBlocks;
+import gooblemc.screwdrivers_plus.block.custom.entity.ModBlockEntityTypes;
 import gooblemc.screwdrivers_plus.commands.ModCommands;
 import gooblemc.screwdrivers_plus.item.ModItems;
 import dev.architectury.event.events.common.CommandRegistrationEvent;

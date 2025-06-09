@@ -1,5 +1,6 @@
 package gooblemc.forge;
 
+import gooblemc.forge.block.entity.ForgeModBlockEntityTypes;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 
@@ -13,6 +14,7 @@ public final class ForgeScrewdriversPlus {
 
     public ForgeScrewdriversPlus() {
         ScrewdriversPlus.init();
+        ForgeModBlockEntityTypes.initBlockEntityTypes();
 
         // Submit our event bus to let Architectury API register our content on the right time.
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();

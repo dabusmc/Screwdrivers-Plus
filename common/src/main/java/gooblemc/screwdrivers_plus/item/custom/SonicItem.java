@@ -11,6 +11,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.UseOnContext;
 import whocraft.tardis_refined.common.items.ScrewdriverItem;
 
+// TODO: Display current upgrades in tooltip
 public class SonicItem extends ScrewdriverItem {
 
     public static final String UPGRADES = "upgrades";

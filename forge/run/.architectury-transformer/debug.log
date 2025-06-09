@@ -105,20 +105,20 @@
 [Architectury Transformer DEBUG]  - C:\Users\shaki\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.82.Final\476409d6255001ca53a55f65b01c13822f8dc93a\netty-transport-native-epoll-4.1.82.Final-linux-aarch_64.jar
 [Architectury Transformer DEBUG]  - D:\Dev\Mods\ScrewdriversPlus\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_40359_v2_forge_1_20_1_47_4_0_forge\dev\architectury\architectury-forge\9.2.14\architectury-forge-9.2.14.jar
 [Architectury Transformer DEBUG]  - D:\Dev\Mods\ScrewdriversPlus\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_40359_v2_forge_1_20_1_47_4_0_forge\maven\modrinth\tardis-refined\neoforge-mc1.20.1-v2.1.5\tardis-refined-neoforge-mc1.20.1-v2.1.5.jar
-[Architectury Transformer] Read classpath in 1.754 s
+[Architectury Transformer] Read classpath in 1.716 s
 [Architectury Transformer DEBUG] Closed File Systems for D:\Dev\Mods\ScrewdriversPlus\common\build\devlibs\screwdrivers_plus-common-1.5.3-dev.jar
-[Architectury Transformer DEBUG] Transforming 8 transformer(s) from D:\Dev\Mods\ScrewdriversPlus\common\build\devlibs\screwdrivers_plus-common-1.5.3-dev.jar to C:\Users\shaki\AppData\Local\Temp\17247327993914693448.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@319b92f3
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@fcd6521
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@27d415d9
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@5c18298f
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@31f924f5
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@5579bb86
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeForgeMod@5204062d
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@4fcd19b3
-[Architectury Transformer DEBUG] Transforming from D:\Dev\Mods\ScrewdriversPlus\common\build\devlibs\screwdrivers_plus-common-1.5.3-dev.jar to C:\Users\shaki\AppData\Local\Temp\17247327993914693448.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Transforming 8 transformer(s) from D:\Dev\Mods\ScrewdriversPlus\common\build\devlibs\screwdrivers_plus-common-1.5.3-dev.jar to C:\Users\shaki\AppData\Local\Temp\5439896374100262175.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@5123a213
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@52525845
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@3b94d659
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@24b1d79b
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@68ceda24
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@281e3708
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeForgeMod@35a50a4c
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@1f021e6c
+[Architectury Transformer DEBUG] Transforming from D:\Dev\Mods\ScrewdriversPlus\common\build\devlibs\screwdrivers_plus-common-1.5.3-dev.jar to C:\Users\shaki\AppData\Local\Temp\5439896374100262175.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001c08203fd78@797badd3
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000002cd5203fd78@7ff2a664
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
@@ -127,14 +127,19 @@
 [Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/block/ModBlocks with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/block/custom/ChameleonBox with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/block/custom/EngineersTable with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/block/custom/entity/ChameleonBoxEntity$Ticker with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/block/custom/entity/ChameleonBoxEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/block/custom/entity/ModBlockEntityTypes with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/block/custom/entity/EngineersTableEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/block/custom/entity/EngineersTableEntity$Ticker with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/commands/ModCommands with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/item/ModItems with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/item/custom/SonicItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/sonic/SonicEngine with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/upgrades/SnipperUpgrade with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/upgrades/SonicUpgradeItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/upgrades/IgniterUpgrade with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/upgrades/SonicUpgrades with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/upgrades/SonicUpgradeItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/upgrades/SnipperUpgrade with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/upgrades/SonicUpgrade with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/util/EntityUtils with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/util/BeehiveUtils with maxs=true frames=true
@@ -143,14 +148,14 @@
 [Architectury Transformer DEBUG] Found mixin config(s): screwdrivers_plus_common.mixin.json
 [Architectury Transformer DEBUG] Appended Launch Argument: [--mixin.config, screwdrivers_plus_common.mixin.json]
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: screwdrivers_plus-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\shaki\AppData\Local\Temp\17247327993914693448.jar
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\shaki\AppData\Local\Temp\5439896374100262175.jar
 [Architectury Transformer] Listening at D:\Dev\Mods\ScrewdriversPlus\common\build\devlibs\screwdrivers_plus-common-1.5.3-dev.jar
-[Architectury Transformer DEBUG] Temporary jar [C:\Users\shaki\AppData\Local\Temp\17247327993914693448.jar] contains packages: gooblemc.screwdrivers_plus.item.custom, gooblemc.screwdrivers_plus.util, gooblemc.screwdrivers_plus.commands, gooblemc, gooblemc.screwdrivers_plus.sonic, gooblemc.screwdrivers_plus.block, gooblemc.screwdrivers_plus.upgrades, gooblemc.screwdrivers_plus.block.custom, gooblemc.screwdrivers_plus.item
+[Architectury Transformer DEBUG] Temporary jar [C:\Users\shaki\AppData\Local\Temp\5439896374100262175.jar] contains packages: gooblemc.screwdrivers_plus.item.custom, gooblemc.screwdrivers_plus.util, gooblemc.screwdrivers_plus.commands, gooblemc.screwdrivers_plus.block.custom.entity, gooblemc, gooblemc.screwdrivers_plus.sonic, gooblemc.screwdrivers_plus.block, gooblemc.screwdrivers_plus.upgrades, gooblemc.screwdrivers_plus.block.custom, gooblemc.screwdrivers_plus.item
 [Architectury Transformer DEBUG] Closed File Systems for D:\Dev\Mods\ScrewdriversPlus\common\build\devlibs\screwdrivers_plus-common-1.5.3-dev.jar
 [Architectury Transformer DEBUG] Classpath entry [D:\Dev\Mods\ScrewdriversPlus\forge\build\resources\main] contains packages: 
 [Architectury Transformer DEBUG] Transforming from gooblemc/ScrewdriversPlus.class to gooblemc/ScrewdriversPlus.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001c08203fd78@797badd3
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000002cd5203fd78@7ff2a664
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
@@ -158,144 +163,164 @@
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing gooblemc/ScrewdriversPlus with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: screwdrivers_plus-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed gooblemc/ScrewdriversPlus in 105.9 ms
+[Architectury Transformer DEBUG] Transformed gooblemc/ScrewdriversPlus in 96.36 ms
 [Architectury Transformer DEBUG] Transforming from gooblemc/screwdrivers_plus/upgrades/SonicUpgrades.class to gooblemc/screwdrivers_plus/upgrades/SonicUpgrades.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001c08203fd78@797badd3
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000002cd5203fd78@7ff2a664
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/upgrades/SonicUpgrades with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: screwdrivers_plus-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/upgrades/SonicUpgrades in 35.18 ms
+[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/upgrades/SonicUpgrades in 17.99 ms
 [Architectury Transformer DEBUG] Transforming from gooblemc/screwdrivers_plus/upgrades/SonicUpgrade.class to gooblemc/screwdrivers_plus/upgrades/SonicUpgrade.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001c08203fd78@797badd3
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000002cd5203fd78@7ff2a664
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/upgrades/SonicUpgrade with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: screwdrivers_plus-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/upgrades/SonicUpgrade in 18.55 ms
+[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/upgrades/SonicUpgrade in 18.25 ms
 [Architectury Transformer DEBUG] Transforming from gooblemc/screwdrivers_plus/upgrades/IgniterUpgrade.class to gooblemc/screwdrivers_plus/upgrades/IgniterUpgrade.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001c08203fd78@797badd3
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000002cd5203fd78@7ff2a664
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/upgrades/IgniterUpgrade with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: screwdrivers_plus-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/upgrades/IgniterUpgrade in 18.40 ms
+[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/upgrades/IgniterUpgrade in 17.85 ms
 [Architectury Transformer DEBUG] Transforming from gooblemc/screwdrivers_plus/upgrades/SnipperUpgrade.class to gooblemc/screwdrivers_plus/upgrades/SnipperUpgrade.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001c08203fd78@797badd3
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000002cd5203fd78@7ff2a664
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/upgrades/SnipperUpgrade with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: screwdrivers_plus-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/upgrades/SnipperUpgrade in 21.45 ms
+[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/upgrades/SnipperUpgrade in 20.08 ms
 [Architectury Transformer DEBUG] Transforming from gooblemc/screwdrivers_plus/item/ModItems.class to gooblemc/screwdrivers_plus/item/ModItems.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001c08203fd78@797badd3
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000002cd5203fd78@7ff2a664
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/item/ModItems with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: screwdrivers_plus-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/item/ModItems in 18.93 ms
+[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/item/ModItems in 14.86 ms
 [Architectury Transformer DEBUG] Transforming from gooblemc/screwdrivers_plus/upgrades/SonicUpgradeItem.class to gooblemc/screwdrivers_plus/upgrades/SonicUpgradeItem.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001c08203fd78@797badd3
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000002cd5203fd78@7ff2a664
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/upgrades/SonicUpgradeItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: screwdrivers_plus-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/upgrades/SonicUpgradeItem in 17.71 ms
+[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/upgrades/SonicUpgradeItem in 14.23 ms
 [Architectury Transformer DEBUG] Transforming from gooblemc/screwdrivers_plus/item/custom/SonicItem.class to gooblemc/screwdrivers_plus/item/custom/SonicItem.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001c08203fd78@797badd3
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000002cd5203fd78@7ff2a664
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/item/custom/SonicItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: screwdrivers_plus-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/item/custom/SonicItem in 20.22 ms
+[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/item/custom/SonicItem in 15.15 ms
 [Architectury Transformer DEBUG] Transforming from gooblemc/screwdrivers_plus/block/ModBlocks.class to gooblemc/screwdrivers_plus/block/ModBlocks.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001c08203fd78@797badd3
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000002cd5203fd78@7ff2a664
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/block/ModBlocks with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: screwdrivers_plus-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/block/ModBlocks in 16.52 ms
+[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/block/ModBlocks in 14.45 ms
 [Architectury Transformer DEBUG] Transforming from gooblemc/screwdrivers_plus/block/custom/EngineersTable.class to gooblemc/screwdrivers_plus/block/custom/EngineersTable.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001c08203fd78@797badd3
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000002cd5203fd78@7ff2a664
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/block/custom/EngineersTable with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: screwdrivers_plus-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/block/custom/EngineersTable in 15.89 ms
+[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/block/custom/EngineersTable in 13.15 ms
 [Architectury Transformer DEBUG] Transforming from gooblemc/screwdrivers_plus/block/custom/ChameleonBox.class to gooblemc/screwdrivers_plus/block/custom/ChameleonBox.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001c08203fd78@797badd3
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000002cd5203fd78@7ff2a664
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/block/custom/ChameleonBox with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: screwdrivers_plus-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/block/custom/ChameleonBox in 19.30 ms
+[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/block/custom/ChameleonBox in 12.20 ms
+[Architectury Transformer DEBUG] Transforming from gooblemc/screwdrivers_plus/block/custom/entity/ModBlockEntityTypes.class to gooblemc/screwdrivers_plus/block/custom/entity/ModBlockEntityTypes.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000002cd5203fd78@7ff2a664
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/block/custom/entity/ModBlockEntityTypes with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: screwdrivers_plus-forge-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/block/custom/entity/ModBlockEntityTypes in 10.13 ms
+[Architectury Transformer DEBUG] Transforming from gooblemc/screwdrivers_plus/block/custom/entity/ChameleonBoxEntity.class to gooblemc/screwdrivers_plus/block/custom/entity/ChameleonBoxEntity.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000002cd5203fd78@7ff2a664
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/block/custom/entity/ChameleonBoxEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: screwdrivers_plus-forge-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/block/custom/entity/ChameleonBoxEntity in 7.177 ms
+[Architectury Transformer DEBUG] Transforming from gooblemc/screwdrivers_plus/block/custom/entity/EngineersTableEntity.class to gooblemc/screwdrivers_plus/block/custom/entity/EngineersTableEntity.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000002cd5203fd78@7ff2a664
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/block/custom/entity/EngineersTableEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: screwdrivers_plus-forge-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/block/custom/entity/EngineersTableEntity in 7.091 ms
 [Architectury Transformer DEBUG] Transforming from gooblemc/screwdrivers_plus/commands/ModCommands.class to gooblemc/screwdrivers_plus/commands/ModCommands.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001c08203fd78@797badd3
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000002cd5203fd78@7ff2a664
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/commands/ModCommands with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: screwdrivers_plus-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/commands/ModCommands in 11.56 ms
-[Architectury Transformer DEBUG] Transforming from gooblemc/screwdrivers_plus/sonic/SonicEngine.class to gooblemc/screwdrivers_plus/sonic/SonicEngine.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/commands/ModCommands in 17.80 ms
+[Architectury Transformer DEBUG] Transforming from gooblemc/screwdrivers_plus/block/custom/entity/EngineersTableEntity$Ticker.class to gooblemc/screwdrivers_plus/block/custom/entity/EngineersTableEntity$Ticker.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001c08203fd78@797badd3
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000002cd5203fd78@7ff2a664
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/sonic/SonicEngine with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/block/custom/entity/EngineersTableEntity$Ticker with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: screwdrivers_plus-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/sonic/SonicEngine in 33.74 ms
-[Architectury Transformer DEBUG] Transforming from gooblemc/screwdrivers_plus/util/EntityUtils.class to gooblemc/screwdrivers_plus/util/EntityUtils.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/block/custom/entity/EngineersTableEntity$Ticker in 14.02 ms
+[Architectury Transformer DEBUG] Transforming from gooblemc/screwdrivers_plus/block/custom/entity/ChameleonBoxEntity$Ticker.class to gooblemc/screwdrivers_plus/block/custom/entity/ChameleonBoxEntity$Ticker.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001c08203fd78@797badd3
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000002cd5203fd78@7ff2a664
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/util/EntityUtils with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/block/custom/entity/ChameleonBoxEntity$Ticker with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: screwdrivers_plus-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/util/EntityUtils in 18.09 ms
-[Architectury Transformer DEBUG] Transforming from gooblemc/screwdrivers_plus/util/BeehiveUtils.class to gooblemc/screwdrivers_plus/util/BeehiveUtils.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001c08203fd78@797badd3
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing gooblemc/screwdrivers_plus/util/BeehiveUtils with maxs=true frames=true
-[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: screwdrivers_plus-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/util/BeehiveUtils in 6.566 ms
+[Architectury Transformer DEBUG] Transformed gooblemc/screwdrivers_plus/block/custom/entity/ChameleonBoxEntity$Ticker in 29.74 ms

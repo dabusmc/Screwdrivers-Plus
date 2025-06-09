@@ -5,22 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef53f94e-f030-4b6e-bb72-631b3944c46c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/upgrades/IgniterUpgrade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/upgrades/SnipperUpgrade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/screwdrivers_plus/models/item/sonic_upgrade_snipper.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/block/custom/entity/ChameleonBoxEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/block/custom/entity/EngineersTableEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/block/custom/entity/ModBlockEntityTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/src/main/java/gooblemc/screwdrivers_plus/fabric/block/entity/FabricModBlockEntityTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/src/main/java/gooblemc/forge/block/entity/ForgeModBlockEntityTypes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/commands/ModCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/commands/ModCommands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/item/ModItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/sonic/SonicEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/sonic/SonicEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/upgrades/BomberUpgrade.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/upgrades/SonicUpgrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/upgrades/SonicUpgrade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/upgrades/SonicUpgrades.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/upgrades/SonicUpgrades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/gooblemc/ScrewdriversPlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/gooblemc/ScrewdriversPlus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/block/custom/ChameleonBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/block/custom/ChameleonBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/block/custom/EngineersTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/block/custom/EngineersTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/item/custom/SonicItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/item/custom/SonicItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/screwdrivers_plus/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/screwdrivers_plus/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/screwdrivers_plus/models/item/sonic_upgrade_bomber.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/screwdrivers_plus/models/item/sonic_upgrade_igniter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/gooblemc/screwdrivers_plus/fabric/FabricScrewdriversPlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/gooblemc/screwdrivers_plus/fabric/FabricScrewdriversPlus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/latest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/java/gooblemc/forge/ForgeScrewdriversPlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/gooblemc/forge/ForgeScrewdriversPlus.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,25 +50,7 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="black_archive" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="black_archive" type="f1a62948:ProjectNode" />
-                <item name="fabric" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="black_archive" type="f1a62948:ProjectNode" />
-                <item name="fabric" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="black_archive" type="f1a62948:ProjectNode" />
-                <item name="fabric" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="loom" type="c8890929:TasksNode$1" />
+                <item name="screwdrivers_plus" type="f1a62948:ProjectNode" />
               </path>
             </expand>
             <select />
@@ -94,20 +77,20 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.BlackArchive:fabric [runClient].executor": "Run",
-    "Gradle.BlackArchive:forge [runClient].executor": "Run",
-    "Gradle.Download Sources.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "external.system.has.shared.sources": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Dev/Mods/ScrewdriversPlus/common/src/main/resources/assets/screwdrivers_plus/models/item",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.BlackArchive:fabric [runClient].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BlackArchive:forge [runClient].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;external.system.has.shared.sources&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Dev/Mods/ScrewdriversPlus/common/src/main/resources/assets/screwdrivers_plus/models/item&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Dev\Mods\ScrewdriversPlus\common\src\main\resources\assets\screwdrivers_plus\models\item" />
@@ -115,6 +98,9 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Dev\Mods\ScrewdriversPlus\common\src\main\resources\assets\screwdrivers_plus\models\item" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gooblemc.screwdrivers_plus.block.custom.entity" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.BlackArchive:forge [runClient]">
