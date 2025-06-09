@@ -1,9 +1,7 @@
 package gooblemc.screwdrivers_plus.upgrades;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
-import java.util.function.Supplier;
 
 public class SonicUpgrades {
 
@@ -11,7 +9,8 @@ public class SonicUpgrades {
 
     public static void init() {
         s_Upgrades = new HashMap<>();
-        s_Upgrades.put("sonic_upgrade_bomber", new BomberUpgrade());
+        s_Upgrades.put("sonic_upgrade_igniter", new IgniterUpgrade());
+        s_Upgrades.put("sonic_upgrade_snipper", new SnipperUpgrade());
     }
 
     public static String[] getKeys() {

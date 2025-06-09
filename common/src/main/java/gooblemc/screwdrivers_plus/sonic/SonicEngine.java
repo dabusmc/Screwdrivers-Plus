@@ -1,6 +1,7 @@
 package gooblemc.screwdrivers_plus.sonic;
 
 import gooblemc.screwdrivers_plus.item.custom.SonicItem;
+import gooblemc.screwdrivers_plus.upgrades.SonicUpgrades;
 import gooblemc.screwdrivers_plus.util.BeehiveUtils;
 import gooblemc.screwdrivers_plus.util.EntityUtils;
 import net.minecraft.core.BlockPos;
@@ -48,16 +49,22 @@ public class SonicEngine {
         ItemStack stack = context.getItemInHand();
 
         if(level instanceof ServerLevel serverLevel && !level.isClientSide) {
-            if (state.getBlock() instanceof TntBlock) {
-                handleTNT(serverLevel, context, player, stack);
-            } else if (state.getBlock() instanceof GlassBlock || state.getBlock() instanceof StainedGlassBlock || state.getBlock() instanceof StainedGlassPaneBlock || state.getBlock() instanceof TintedGlassBlock || state.getBlock() == Blocks.GLASS_PANE) {
+            SonicItem item = (SonicItem) stack.getItem();
+            String[] upgrades = item.getUpgrades(stack);
+
+            for(String upgrade : upgrades) {
+                boolean soundAndCooldown = SonicUpgrades.getUpgradeFromSerializedName(upgrade).useOnBlock(serverLevel, context, player, stack);
+                if(soundAndCooldown) {
+                    playSoundAndCooldown(serverLevel, player, stack, context.getClickedPos());
+                }
+            }
+
+            if (state.getBlock() instanceof GlassBlock || state.getBlock() instanceof StainedGlassBlock || state.getBlock() instanceof StainedGlassPaneBlock || state.getBlock() instanceof TintedGlassBlock || state.getBlock() == Blocks.GLASS_PANE) {
                 destroyBlock(serverLevel, context, player, stack);
             } else if (state.getBlock() instanceof DoorBlock) {
                 handleDoor(serverLevel, state, context, player, stack);
             } else if (state.getBlock() instanceof TrapDoorBlock) {
                 cycleBlockState(serverLevel, state, context, player, stack, BlockStateProperties.OPEN);
-            } else if(state.getBlock() instanceof BeehiveBlock) {
-                handleBeehive(serverLevel, state, context, player, stack);
             } else if (state.hasProperty(BlockStateProperties.POWERED)) {
                 cycleBlockState(serverLevel, state, context, player, stack, BlockStateProperties.POWERED);
             } else if (state.hasProperty(BlockStateProperties.LIT)) {
@@ -74,25 +81,15 @@ public class SonicEngine {
         SonicItem item = (SonicItem) stack.getItem();
 
         if(player.level() instanceof ServerLevel serverLevel && item.isScrewdriverMode(stack, ScrewdriverMode.ENABLED)) {
-            handleEntityInteractions(serverLevel, player, entity, item);
+            handleEntityInteractions(serverLevel, player, stack, entity, item);
         }
     }
 
-    private static void handleEntityInteractions(ServerLevel level, Player player, LivingEntity entity, SonicItem item) {
+    private static void handleEntityInteractions(ServerLevel level, Player player, ItemStack stack, LivingEntity entity, SonicItem item) {
         if(!player.isCrouching()) {
-            boolean isWearingArmor = EntityUtils.isWearingAnyArmor(entity);
-            boolean isHoldingItems = EntityUtils.isHoldingAnyItem(entity);
-
-            if (entity instanceof Creeper creeper) {
-                creeper.setSwellDir(0);
-                creeper.ignite();
-            } else if (entity instanceof Sheep sheep) {
-                if(sheep.readyForShearing()) {
-                    sheep.shear(SoundSource.PLAYERS);
-                    sheep.gameEvent(GameEvent.SHEAR, player);
-                }
-            } else if(isWearingArmor || isHoldingItems) {
-                handleEntityWithEquipment(entity, isWearingArmor, isHoldingItems);
+            String[] upgrades = item.getUpgrades(stack);
+            for(String upgrade : upgrades) {
+                SonicUpgrades.getUpgradeFromSerializedName(upgrade).useOnEntity(level, player, stack, entity, item);
             }
         }
 
@@ -123,12 +120,6 @@ public class SonicEngine {
         playSoundAndCooldown(level, player, stack, context.getClickedPos());
     }
 
-    private static void handleTNT(ServerLevel level, UseOnContext context, Player player, ItemStack stack) {
-        level.removeBlock(context.getClickedPos(), false);
-        TntBlock.explode(level, context.getClickedPos());
-        playSoundAndCooldown(level, player, stack, context.getClickedPos());
-    }
-
     private static void handleDoor(ServerLevel level, BlockState state, UseOnContext context, Player player, ItemStack stack) {
         if(!(state.getBlock() instanceof DoorBlock)) {
             return;
@@ -154,46 +145,6 @@ public class SonicEngine {
         playSoundAndCooldown(level, player, stack, context.getClickedPos());
     }
 
-    private static void handleBeehive(ServerLevel level, BlockState state, UseOnContext context, Player player, ItemStack stack) {
-        if(!(state.getBlock() instanceof BeehiveBlock beehive)) {
-            return;
-        }
-
-        if(state.getValue(BeehiveBlock.HONEY_LEVEL) >= BeehiveBlock.MAX_HONEY_LEVELS) {
-            level.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.BEEHIVE_SHEAR, SoundSource.BLOCKS, 1.0F, 1.0F);
-            BeehiveBlock.dropHoneycomb(level, context.getClickedPos());
-            if(!CampfireBlock.isSmokeyPos(level, context.getClickedPos())) {
-                if(!BeehiveUtils.beehiveIsEmpty(level, context.getClickedPos())) {
-                    BeehiveUtils.angerBeesAroundHive(level, context.getClickedPos());
-                }
-
-                beehive.releaseBeesAndResetHoneyLevel(level, state, context.getClickedPos(), player, BeehiveBlockEntity.BeeReleaseStatus.EMERGENCY);
-            } else {
-                beehive.resetHoneyLevel(level, state, context.getClickedPos());
-            }
-        }
-    }
-
-    // SPECIFIC ACTIONS (Entity)
-
-    private static void handleEntityWithEquipment(LivingEntity entity, boolean wearingArmor, boolean holdingItems) {
-        if(entity instanceof Player) {
-            return;
-        }
-
-        if(wearingArmor) {
-            EntityUtils.dropHeldItem(entity, EquipmentSlot.HEAD);
-            EntityUtils.dropHeldItem(entity, EquipmentSlot.CHEST);
-            EntityUtils.dropHeldItem(entity, EquipmentSlot.LEGS);
-            EntityUtils.dropHeldItem(entity, EquipmentSlot.FEET);
-        }
-
-        if(holdingItems) {
-            EntityUtils.dropHeldItem(entity, EquipmentSlot.MAINHAND);
-            EntityUtils.dropHeldItem(entity, EquipmentSlot.OFFHAND);
-        }
-    }
-
     // UTILITY
 
     public static void cooldown(Player player, ItemStack stack) {
@@ -204,9 +155,9 @@ public class SonicEngine {
         }
     }
 
-    private static void playSoundAndCooldown(ServerLevel world, Player player, ItemStack stack, BlockPos pos) {
+    private static void playSoundAndCooldown(ServerLevel level, Player player, ItemStack stack, BlockPos pos) {
         SonicItem item = (SonicItem) stack.getItem();
-        item.playScrewdriverSound(world, pos, TRSoundRegistry.SCREWDRIVER_SHORT.get());
+        item.playScrewdriverSound(level, pos, TRSoundRegistry.SCREWDRIVER_SHORT.get());
         cooldown(player, stack);
     }
 

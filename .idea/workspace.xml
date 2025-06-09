@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef53f94e-f030-4b6e-bb72-631b3944c46c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/upgrades/IgniterUpgrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/upgrades/SnipperUpgrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/screwdrivers_plus/models/item/sonic_upgrade_snipper.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/commands/ModCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/commands/ModCommands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/item/custom/SonicItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/item/custom/SonicItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/item/ModItems.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/sonic/SonicEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/sonic/SonicEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/upgrades/BomberUpgrade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/upgrades/SonicUpgrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/upgrades/SonicUpgrade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/upgrades/SonicUpgrades.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/upgrades/SonicUpgrades.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/util/EntityUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/gooblemc/screwdrivers_plus/util/EntityUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/screwdrivers_plus/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/screwdrivers_plus/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/screwdrivers_plus/models/item/sonic_upgrade_bomber.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/screwdrivers_plus/models/item/sonic_upgrade_igniter.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/latest.log" afterDir="false" />

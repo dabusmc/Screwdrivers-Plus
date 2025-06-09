@@ -1,7 +1,6 @@
 package gooblemc.screwdrivers_plus.commands;
 
 import com.mojang.brigadier.CommandDispatcher;
-import com.mojang.brigadier.arguments.StringArgumentType;
 import com.mojang.brigadier.context.CommandContext;
 import gooblemc.screwdrivers_plus.item.ModItems;
 import gooblemc.screwdrivers_plus.item.custom.SonicItem;
@@ -118,11 +117,15 @@ public class ModCommands {
                 Commands.literal("sonic_upgrade")
                         .requires(source -> source.hasPermission(2))
                         .then(Commands.literal("add")
-                                .then(Commands.literal("bomber")
-                                    .executes(context -> addUpgrade(context, "bomber"))))
+                                .then(Commands.literal("igniter")
+                                        .executes(context -> addUpgrade(context, "igniter")))
+                                .then(Commands.literal("snipper")
+                                        .executes(commandContext -> addUpgrade(commandContext, "snipper"))))
                         .then(Commands.literal("remove")
-                                .then(Commands.literal("bomber")
-                                        .executes(context -> removeUpgrade(context, "bomber"))))
+                                .then(Commands.literal("igniter")
+                                        .executes(context -> removeUpgrade(context, "igniter")))
+                                .then(Commands.literal("snipper")
+                                        .executes(commandContext -> removeUpgrade(commandContext, "snipper"))))
                         .then(Commands.literal("list")
                                 .executes(ModCommands::listUpgrades))
         );
