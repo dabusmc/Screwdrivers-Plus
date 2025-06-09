@@ -5,5 +5,19 @@
   "item.screwdrivers_plus.sonic_upgrade_bomber": "Bomber Upgrade",
 
   "block.screwdrivers_plus.engineers_table": "Engineer's Table",
-  "block.screwdrivers_plus.chameleon_box": "Chameleon Box"
+  "block.screwdrivers_plus.chameleon_box": "Chameleon Box",
+
+  "commands.screwdrivers_plus.add_upgrade.success": "Added upgrade!",
+  "commands.screwdrivers_plus.add_upgrade.failure.not_a_player": "Failed to add upgrade: Entity is not a player",
+  "commands.screwdrivers_plus.add_upgrade.failure.not_holding_sonic": "Failed to add upgrade: Player is not holding a Sonic Screwdriver",
+  "commands.screwdrivers_plus.add_upgrade.failure.upgrade_already_added": "Failed to add upgrade: Sonic Screwdriver already has upgrade",
+
+  "commands.screwdrivers_plus.remove_upgrade.success": "Removed upgrade!",
+  "commands.screwdrivers_plus.remove_upgrade.failure.not_a_player": "Failed to remove upgrade: Entity is not a player",
+  "commands.screwdrivers_plus.remove_upgrade.failure.not_holding_sonic": "Failed to remove upgrade: Player is not holding a Sonic Screwdriver",
+  "commands.screwdrivers_plus.remove_upgrade.failure.upgrade_not_there": "Failed to remove upgrade: Sonic Screwdriver doesn't have upgrade",
+
+  "commands.screwdrivers_plus.list_upgrades.success.no_upgrades": "No Upgrades to List",
+  "commands.screwdrivers_plus.list_upgrades.failure.not_a_player": "Failed to list upgrades: Entity is not a player",
+  "commands.screwdrivers_plus.list_upgrades.failure.not_holding_sonic": "Failed to list upgrades: Player is not holding a Sonic Screwdriver"
 }

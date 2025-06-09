@@ -40,6 +40,11 @@ public class SonicItem extends ScrewdriverItem {
         }
     }
 
+    public String[] getUpgrades(ItemStack stack) {
+        CompoundTag tag = stack.getOrCreateTagElement(UPGRADES);
+        return tag.getAllKeys().toArray(new String[0]);
+    }
+
     @Override
     public InteractionResult useOn(UseOnContext context) {
         SonicEngine.useOnBlock(context);

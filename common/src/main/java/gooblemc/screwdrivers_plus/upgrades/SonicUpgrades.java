@@ -28,7 +28,7 @@ public class SonicUpgrades {
 
     public static SonicUpgrade getUpgradeFromSerializedName(String name) {
         String upgrade = "sonic_upgrade_" + name;
-        return getUpgradeFromName(name);
+        return getUpgradeFromName(upgrade);
     }
 
 }

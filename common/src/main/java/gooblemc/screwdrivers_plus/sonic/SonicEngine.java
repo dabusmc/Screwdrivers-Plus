@@ -81,7 +81,7 @@ public class SonicEngine {
     private static void handleEntityInteractions(ServerLevel level, Player player, LivingEntity entity, SonicItem item) {
         if(!player.isCrouching()) {
             boolean isWearingArmor = EntityUtils.isWearingAnyArmor(entity);
-            boolean isHoldingItems = EntityUtils.isHoldingItem(entity);
+            boolean isHoldingItems = EntityUtils.isHoldingAnyItem(entity);
 
             if (entity instanceof Creeper creeper) {
                 creeper.setSwellDir(0);

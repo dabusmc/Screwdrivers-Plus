@@ -2,6 +2,7 @@ package gooblemc.screwdrivers_plus.util;
 
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 
 public class EntityUtils {
@@ -19,7 +20,7 @@ public class EntityUtils {
         return false;
     }
 
-    public static boolean isHoldingItem(LivingEntity entity) {
+    public static boolean isHoldingAnyItem(LivingEntity entity) {
         ItemStack mainHand = entity.getItemBySlot(EquipmentSlot.MAINHAND);
         ItemStack offHand = entity.getItemBySlot(EquipmentSlot.OFFHAND);
 
@@ -32,6 +33,24 @@ public class EntityUtils {
             entity.spawnAtLocation(stack.copy(), 0.5f);
             entity.setItemSlot(slot, ItemStack.EMPTY);
         }
+    }
+
+    public static EquipmentSlot isHoldingItem(LivingEntity entity, Item item) {
+        if(!isHoldingAnyItem(entity))
+            return null;
+
+        ItemStack mainHand = entity.getItemBySlot(EquipmentSlot.MAINHAND);
+        ItemStack offHand = entity.getItemBySlot(EquipmentSlot.OFFHAND);
+
+        if(mainHand.getItem() == item) {
+            return EquipmentSlot.MAINHAND;
+        }
+
+        if(offHand.getItem() == item) {
+            return EquipmentSlot.OFFHAND;
+        }
+
+        return null;
     }
 
 }
