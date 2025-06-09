@@ -3,6 +3,9 @@ package gooblemc.screwdrivers_plus.item;
 import dev.architectury.injectables.annotations.ExpectPlatform;
 import gooblemc.ScrewdriversPlus;
 import gooblemc.screwdrivers_plus.item.custom.SonicItem;
+import gooblemc.screwdrivers_plus.upgrades.BomberUpgrade;
+import gooblemc.screwdrivers_plus.upgrades.SonicUpgradeItem;
+import gooblemc.screwdrivers_plus.upgrades.SonicUpgrades;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -25,6 +28,10 @@ public class ModItems {
 
     public static final RegistrySupplier<Item> SONIC_SCREWDRIVER = registerItem("sonic_screwdriver",
             () -> new SonicItem(new Item.Properties().stacksTo(1)), true);
+
+    // Upgrades
+    public static final RegistrySupplier<Item> BOMBER_UPGRADE = registerItem("sonic_upgrade_bomber",
+            () -> new SonicUpgradeItem("bomber", new Item.Properties().stacksTo(1)), true);
 
     // Generic registration helper
     public static RegistrySupplier<Item> registerItem(String name, Supplier<Item> item, boolean addToTab) {
